@@ -1,3 +1,44 @@
+body {
+    background-color: rgb(225, 220, 255);
+}
+h1 {
+    color: rgb(85, 17, 119);
+}
 div{ 
+    background-color: rgb(193, 234, 255);
+    width: 40vw;
+}
+
+.DivLilita {
     background-color: rgb(215, 142, 213);
+}
+
+#DivUnico {
+    background-color: rgb(233, 175, 220);
+}
+
+#Dibujo {
+    width: 40vw;
+    height: 40vw;
+    background-color: rgb(228, 231, 249);
+    border-radius:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Cara {
+    width: 60%;
+    height: 60%;
+    background-color:rgb(255, 244, 229);
+    border-radius: 50%;
+    position: relative;
+}
+
+.ojos {
+     width: 30%;
+     height: 30%;
+     background-color: brown;
+     border-radius: 50%;
+     position: absolute;
 }
