@@ -36,19 +36,62 @@ div{
 }
 
 .ojos {
-     width: 25%;
-     height: 25%;
+     width: 28%;
+     height: 28%;
      background-color: rgb(40, 22, 1);
      border-radius: 50%;
      position: absolute;
 }
 
 #OjoIzq {
-    top: 20%;
+    top: 25%;
     left: 20%;
 }
 
 #OjoDer {
-    top: 20%;
+    top: 25%;
     right: 20%;
+}
+.boca {
+    width:25%;
+    height:10%;
+    background-color: rgb(40, 22, 1);
+    border-radius: 0 0 50px 50px ;
+    position: absolute;
+    bottom: 20%;
+    left: 38%;
+}
+
+.blush{
+    width: 20%;
+    height: 15%;
+    background-color: rgb(233, 175, 220);
+    border-radius: 50%;
+    position: absolute;
+}
+
+#blushIzq {
+    bottom: 30%;
+    left: 10%
+}
+#blushDer {
+    bottom: 30%;
+    right: 10%
+}
+.pupils{
+     width: 5%;
+     height: 5%;
+     background-color: rgb(238, 228, 249));
+     border-radius: 50%;
+     position: absolute;
+}
+
+#PupIzq {
+    top: 30%;
+    left: 25%;
+}
+
+#PupDer {
+    top: 30%;
+    right: 40%;
 }
