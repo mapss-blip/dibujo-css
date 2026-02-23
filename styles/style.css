@@ -36,9 +36,19 @@ div{
 }
 
 .ojos {
-     width: 30%;
-     height: 30%;
-     background-color: brown;
+     width: 25%;
+     height: 25%;
+     background-color: rgb(40, 22, 1);
      border-radius: 50%;
      position: absolute;
+}
+
+#OjoIzq {
+    top: 20%;
+    left: 20%;
+}
+
+#OjoDer {
+    top: 20%;
+    right: 20%;
 }
