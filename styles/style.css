@@ -3,6 +3,9 @@ body {
 }
 h1 {
     color: rgb(85, 17, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div{ 
     background-color: rgb(193, 234, 255);
@@ -34,11 +37,18 @@ div{
     border: 10% rgb(40, 22, 1);
     border-radius: 50%;
     position: relative;
+    transition: all 3s ease-in;
+}
+
+#Cara:hover {
+    background-color: rgb(202, 69, 69);
+    transform: rotate(360deg) scale(1.4);
 }
 
 .ojos {
      width: 28%;
      height: 28%;
+     
      background-color: rgb(40, 22, 1);
      border-radius: 50%;
      position: absolute;
@@ -71,6 +81,7 @@ div{
     position: absolute;
 }
 
+
 #blushIzq {
     bottom: 30%;
     left: 10%
@@ -86,6 +97,7 @@ div{
      border-radius: 50%;
      position: absolute;
 }
+
 
 #PupIzq {
     top: 30%;
@@ -113,3 +125,6 @@ div{
     bottom: 40%;
     right: 10%;
 }
+
+
+
