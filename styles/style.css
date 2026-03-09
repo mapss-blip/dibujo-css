@@ -6,19 +6,21 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 h3 {
     color: #8b008b;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+   
 }
 #textooo {
     color: #431243;
     display: flex;
     justify-content: center;
     align-items: center;
+     cursor:pointer;
     
 }
 div{ 

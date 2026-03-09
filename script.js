@@ -2,10 +2,10 @@
 const varTitulo = document.getElementById("titulo");
 const varTextooo = document.getElementById("textooo");
 
-const listaTextoss =["Esta es la hisoria de Manolito", "Manolito está maldito", "Está condenado a siempre sonrojarse cuando se le acercan ", "Cuando se sonroja le crece la cabeza", "Y la cabeza le da vueltas porque esto no lo puede controlar", "entonces ahora esá condenado al sonrojo perpetuo", "Y a verse como el meme del hamster de ojos grandes y llorosos"];
+const listaTextoss =["Esta es la historia de Manolito", "Manolito está maldito", "Está condenado a siempre sonrojarse cuando se le acercan ", "Cuando se sonroja le crece la cabeza", "Y la cabeza le da vueltas porque esto no lo puede controlar", "entonces ahora esá condenado al sonrojo perpetuo", "Y a verse como el meme del hamster de ojos grandes y llorosos"];
 
 let estadoInicial = true;
-let indice = 0
+let indice = 0;
 
 varTitulo.addEventListener("click", () => {
     if(estadoInicial === true){
@@ -28,7 +28,9 @@ varTextooo.addEventListener("click", () =>{
         indice = indice +1;
     }
     else {
+
         varTextooo.innerText = "el fin <3";
+        indice= 0;
     }
 
 })
